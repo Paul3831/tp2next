@@ -2,6 +2,8 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Header from '@/app/ui/dashboard/header';
+import Date from '@/app/ui/dashboard/date';
+import MainComponent from '@/app/ui/dashboard/MainComponent';
 
 export default function Page() {
   return (
@@ -10,16 +12,27 @@ export default function Page() {
   
 
       <div className="w-full">
-      <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 w-full md:w-full lg:w-2/3 xl:w-1/2 md:px-20 mx-auto">
+
+
+
+      
+      
+  <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 w-full md:w-full lg:w-2/3 xl:w-1/2 md:px-20 mx-auto">
+ 
+  
+  <Date/>
+  
+  
+  <div className="text-blue-700">aaaaaaaaaaaa
+
+  <MainComponent/>
   <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
     <strong>To invite</strong> someone to your room share the link below{' '}
   </p>
-  <div className="text-blue-700">aaaaaaaaaaaa
 
-  <div className="bg-red-600">bhjefgvj
-  
-  </div>
-</div> </div>
+
+</div> 
+</div>
 
 
 
