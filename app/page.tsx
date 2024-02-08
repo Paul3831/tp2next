@@ -17,8 +17,8 @@
             <div className="text-blue-700 flex-grow">aaaaaaaaaaaa
               <MainComponent />
               <div className="flex-grow flex items-end justify-center">
-                <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-                  <strong>To invite</strong> someone to your room, share the link below{' '}
+                <p className={`text-xl text-center text-gray-800 md:text-3xl md:leading-normal mt-20`}>
+                  <strong>To invite</strong> someone to your room<br/> share the link below{' '}
                  </p>
               </div>
             </div>
