@@ -1,11 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image'
 
 const Header = () => {
   return (
     <header className="flex items-center p-x-10 text-white justify-between">
-      <div className='logo'>Logo</div>
+      <div className='logo'><Image
+            src="/logo.png"
+            width={50}
+            height={50}
+            alt="Logo"
+            /></div>
+          
       <div className='flex items-center gap-4'>
         <Link href="/dashboard">Dashbord</Link>
         <Link href="/analytics">Analytics</Link>

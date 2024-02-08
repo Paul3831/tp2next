@@ -3,6 +3,8 @@
   import Header from '@/app/ui/dashboard/header';
   import Date from '@/app/ui/dashboard/date';
   import MainComponent from '@/app/ui/dashboard/MainComponent';
+  import Image from 'next/image'
+
 
   export default function Page() {
     return (
@@ -17,7 +19,7 @@
               <div className="flex-grow flex items-end justify-center">
                 <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
                   <strong>To invite</strong> someone to your room, share the link below{' '}
-                </p>
+                 </p>
               </div>
             </div>
           </div>
