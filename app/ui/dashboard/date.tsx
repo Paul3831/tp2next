@@ -1,5 +1,3 @@
-// components/Date.js
-
 import React from 'react';
 
 const DateComponent = () => {
@@ -13,13 +11,14 @@ const DateComponent = () => {
     <div className="date-container">
    
       <div className="date-text">
-        <div className="day-of-week">{dayOfWeek}</div>
-        <div className="day-of-month">{dayOfMonth}</div>
-      </div>
+     
 
+        <div className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-4xl dark:text-neutral-950 title day-of-week">{dayOfWeek}</div>
+        <div className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-neutral-950 title day-of-week">{dayOfMonth}</div>
+      </div>
      
       <div className="greeting">
-        Hi {userName}, you have <span className="meeting-number">{numberOfMeetings}</span> today.
+        Hi {userName}, you<br/> have <span className="meeting-number">{numberOfMeetings}</span><br/> today  
       </div>
     </div>
   );

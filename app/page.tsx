@@ -8,10 +8,10 @@
 
   export default function Page() {
     return (
-      <main className="flex flex-col min-h-screen h-screen bg-gray-800 gap-4">
+      <main className="flex flex-col h-full bg-gray-800 gap-4">
        <Header/> 
 
-        <div className="flex w-screen flex-grow border-r-4">
+        <div className="flex w-full flex-grow border-r-4">
           <div className="order-2 md:order-1 white-square flex-grow flex flex-col justify-between">
             <Date />
             <div className="text-blue-700 flex-grow">aaaaaaaaaaaa

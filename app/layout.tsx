@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-            <body className={`${inter.className} antialiased`}>{children}</body>
+            <body className={`${inter.className} antialiased px-52 py-8 bg-blue-500 h-screen`}>{children}</body>
     </html>
   );
 }
