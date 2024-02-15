@@ -1,11 +1,13 @@
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
-
-
-export default function AcmeLogo() {
+import React from 'react';
+import Image from 'next/image';
+export default function Logo() {
   return (
-    <div>
-      <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[44px]">Acme</p>
-    </div>
-  );
+
+  <div><Image
+  src="/logo2.jpg"
+  width={200}
+  height={200}
+  alt="Logo"
+  /></div>
+    );
 }
